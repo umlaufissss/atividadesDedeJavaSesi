@@ -25,8 +25,8 @@ public class Main
 
         switch (escolha)
         {
-            case 1:
-                atv1.atividade1();
+            case 1 ->atv1.atividade1();
+            case 2 ->atv2.atividade2();
         }
     }
 }
