@@ -13,9 +13,12 @@ public class atv1 extends Main
 
         System.out.println("Seja bem-vindo, " + nome + "\n");
 
-        try {
+        try
+        {
             Thread.sleep(3000);
-        } catch (InterruptedException e) {
+        }
+        catch (InterruptedException e)
+        {
             Thread.currentThread().interrupt();
         }
         inicio();

@@ -16,9 +16,12 @@ public class atv2 extends Main
 
         System.out.println("A soma dos dois números é: " + (n1+n2) + "\n");
 
-        try {
+        try
+        {
             Thread.sleep(3000);
-        } catch (InterruptedException e) {
+        }
+        catch (InterruptedException e)
+        {
             Thread.currentThread().interrupt();
         }
         inicio();
