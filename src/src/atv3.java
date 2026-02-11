@@ -1,5 +1,8 @@
 public class atv3 extends Main
 {
+    //COMANDO: Crie um programa que simplesmente exibe uma mensagem informativa sobre
+    //o que é Java.
+
     public static void atividade3()
     {
         int opcao;
