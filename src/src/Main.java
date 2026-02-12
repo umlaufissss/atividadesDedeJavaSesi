@@ -13,12 +13,17 @@ public class Main
     {
         System.out.println("Atividades do professor Dedé: \nAula - Entrada de Dados (Scanner)");
 
-        System.out.println("Digite qual questão você gostaria de entrar:");
-        System.out.println("[1]                     [5]");
-        System.out.println("[2]                     [6]");
-        System.out.println("[3]                     [7]");
-        System.out.println("[4]                     [8]");
-        System.out.println("[9] - SAIR");
+        System.out.println("▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀");
+        System.out.println("┌────────────────────────────────────────────┐");
+        System.out.println("│Digite qual questão você gostaria de entrar:│");
+        System.out.println("├────────────────────────────────────────────┤");
+        System.out.println("│[1]                     [5]                 │");
+        System.out.println("│[2]                     [6]                 │");
+        System.out.println("│[3]                     [7]                 │");
+        System.out.println("│[4]                     [8]                 │");
+        System.out.println("├────────────────────────────────────────────┤");
+        System.out.println("│[9] - SAIR                                  │");
+        System.out.println("└────────────────────────────────────────────┘");
 
         int escolha = SC.nextInt();
         SC.nextLine();
@@ -33,6 +38,13 @@ public class Main
             case 6 ->atv6.atividade6();
             case 7 ->atv7.atividade7();
             case 8->atv8.atividade8();
+            case 9-> System.exit(0);
+            default->
+            {
+                System.out.println("Opção inválida!");
+                inicio();
+                break;
+            }
         }
     }
 }
