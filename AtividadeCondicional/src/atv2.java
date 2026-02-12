@@ -15,7 +15,7 @@ public class atv2 extends Main
 
         if(n1+n2 <= 20)
         {
-            System.out.println("A soma dos seus números é maior ou igual que 20! Olá " + (n1+n2-5) + "!\n");
+            System.out.println("A soma dos seus números é menor ou igual que 20! Olá " + (n1+n2-5) + "!\n");
         }
         else
         {

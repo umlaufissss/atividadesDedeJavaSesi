@@ -23,9 +23,9 @@ public class atv4 extends Main
         int meio = (n1+n2+n3) - maior - menor;
 
         System.out.println("Os números em ordem crescente são: ");
-        System.out.println(maior);
-        System.out.println(meio);
         System.out.println(menor);
+        System.out.println(meio);
+        System.out.println(maior);
         //Me recuso a usar if-else nisso
 
         try {
