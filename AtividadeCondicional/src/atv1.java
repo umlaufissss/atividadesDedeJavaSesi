@@ -14,7 +14,7 @@ public class atv1 extends Main
 
         if(n1+n2 >=10)
         {
-            System.out.println("A soma dos seus números é maior que 10! Olá " + (n1+n2) + "!\n");
+            System.out.println("A soma dos seus números é maior ou igual que 10! Olá " + (n1+n2) + "!\n");
         }
 
         try {
