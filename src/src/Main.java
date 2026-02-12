@@ -31,6 +31,7 @@ public class Main
             case 4 ->atv4.atividade4();
             case 5 ->atv5.atividade5();
             case 6 ->atv6.atividade6();
+            case 7 ->atv7.atividade7();
         }
     }
 }
