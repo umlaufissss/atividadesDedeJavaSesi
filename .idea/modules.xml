@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AtividadeCondicional/AtividadeCondicional.iml" filepath="$PROJECT_DIR$/AtividadeCondicional/AtividadeCondicional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AtividadeRepeticao/AtividadeRepeticao.iml" filepath="$PROJECT_DIR$/AtividadeRepeticao/AtividadeRepeticao.iml" />
       <module fileurl="file://$PROJECT_DIR$/AtividadeScanner/AtividadeScanner.iml" filepath="$PROJECT_DIR$/AtividadeScanner/AtividadeScanner.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/atividadesDedeJavaSesi.iml" filepath="$PROJECT_DIR$/.idea/atividadesDedeJavaSesi.iml" />
     </modules>
