@@ -1,14 +1,15 @@
-public class atv1 extends Main
+public class atv2 extends Main
 {
-    public static void atividade1()
+    public static void atividade2()
     {
-        int i = 100;
-        System.out.println("Fazendo contagem regressiva...");
+        int n=0, i = 0;
 
-        for(i=100; i>=0;i--)
+        while (n!=100)
         {
             System.out.println(i + "...");
 
+            i+=2;
+            n++;
         }
 
         try
