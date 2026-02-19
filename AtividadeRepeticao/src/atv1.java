@@ -9,11 +9,20 @@ public class atv1 extends Main
         {
             System.out.println(i + "...");
 
+            try
+            {
+                Thread.sleep(500);
+            }
+            catch (InterruptedException e)
+            {
+                Thread.currentThread().interrupt();
+            }
+
         }
 
         try
         {
-            Thread.sleep(500);
+            Thread.sleep(3000);
         }
         catch (InterruptedException e)
         {

@@ -4,7 +4,7 @@ public class atv2 extends Main
     {
         int n=0, i = 0;
 
-        while (n!=100)
+        while (n!=101)
         {
             System.out.println(i + "...");
 

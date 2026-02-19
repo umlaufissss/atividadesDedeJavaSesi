@@ -3,24 +3,18 @@ public class atv4 extends Main
     public static void atividade4()
     {
         int quant,i, num, entre = 0;
-        System.out.println("Digite quantos números gostaria de digitar");
-        quant = SC.nextInt();
 
-        System.out.printf("Digite o número:");
-        for(i = 0; i<=quant;i++)
+        do
         {
+            System.out.printf("Digite o número:");
             num = SC.nextInt();
 
             if(num >=100 && num <=200)
             {
                 entre++;
             }
-            else if(num == 0)
-            {
-                System.out.println("Cessando código...");
-                inicio();
-            }
         }
+        while (num != 0);
 
         System.out.println("Você digitou " + entre + " número(s) entre 100 e 200!");
 

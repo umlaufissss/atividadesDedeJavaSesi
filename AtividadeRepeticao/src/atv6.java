@@ -7,11 +7,12 @@ public class atv6 extends Main
 
         for(int i = 120; i<=300;i++)
         {
-            for(int f = 120; f<=300;i++)
+            for(int f = 120; f<=300;f++)
             {
-                System.out.println(a + " + " + b + " = " + a*b);
+                System.out.println(a + " * " + b + " = " + a*b);
                 b++;
             }
+            b=120;
             a++;
         }
 

@@ -10,11 +10,11 @@ public class atv8 extends Main
             System.out.println("Digite a idade:");
             idade = SC.nextInt();
 
-            if(idade<21)
+            if(idade<21 && idade > -1)
             {
                 menor21++;
             }
-            if(idade>50)
+            if(idade>50 && idade <121)
             {
                 maior50++;
             }

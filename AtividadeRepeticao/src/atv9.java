@@ -5,34 +5,37 @@ public class atv9 extends Main
         System.out.println("Digite um número: ");
         int numero = SC.nextInt();
 
-        if(numero <=1)
+        if(verificarPrimo(numero))
         {
-            System.out.println("Número não pode ser primo");
+            System.out.println("É primo");
         }
         else
         {
-            for(int i = 2; i<=Math.sqrt(numero); i++)
-            {
-                if(numero % i == 0 )
-                {
-                    System.out.println("Número é primo");
-                }
-                else
-                {
-                    System.out.println("Número não é primo");
-                }
-            }
-
-            try
-            {
-                Thread.sleep(3000);
-            }
-            catch(InterruptedException e)
-            {
-                Thread.currentThread().interrupt();
-            }
-
-            inicio();
+            System.out.println("Não é primo");
         }
+        try
+        {
+            Thread.sleep(3000);
+        }
+        catch(InterruptedException e)
+        {
+            Thread.currentThread().interrupt();
+        }
+
+    inicio();
+
+    }
+
+    public static boolean verificarPrimo(int numero)
+    {
+        if (numero <= 1)
+        {
+            return false;
+        }
+        for (int i = 2; i <= Math.sqrt(numero); i++)
+        {
+            if (numero % i == 0) return false;
+        }
+        return true;
     }
 }
