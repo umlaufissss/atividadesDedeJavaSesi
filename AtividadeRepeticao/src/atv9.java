@@ -1,5 +1,9 @@
 public class atv9 extends Main
 {
+    //COMANDO: 9) Escrever um algoritmo que receba vários números inteiros positivos e imprima
+    //quantidade de números primos dentre os números que foram digitados. Parar
+    //quando for digitado um número não positivo.
+
     public static void atividade9()
     {
         System.out.println("Digite um número: ");

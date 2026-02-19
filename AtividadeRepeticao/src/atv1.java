@@ -1,5 +1,7 @@
 public class atv1 extends Main
 {
+
+    //COMANDO: 1) Imprimir na tela todos os números de 100 a 1 (contagem regressiva).
     public static void atividade1()
     {
         int i = 100;

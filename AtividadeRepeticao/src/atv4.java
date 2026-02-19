@@ -1,5 +1,10 @@
 public class atv4 extends Main
 {
+
+    //COMANDO: 4) Ler vários números e informar quantos números entre 100 e 200 foram
+    //digitados. Quando o valor 0 (zero) for lido o algoritmo deverá cessar sua
+    //execução.
+
     public static void atividade4()
     {
         int quant,i, num, entre = 0;

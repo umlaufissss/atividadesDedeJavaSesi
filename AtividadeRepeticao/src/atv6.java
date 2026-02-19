@@ -1,5 +1,6 @@
 public class atv6 extends Main
 {
+    // COMANDO: 6) Imprimir na tela o produto de todos os números de 120 a 300.
     public static void atividade6()
     {
         int a = 120, b = 120;

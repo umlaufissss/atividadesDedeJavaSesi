@@ -1,5 +1,8 @@
 public class atv3 extends Main
 {
+
+    //COMANDO: 3) Entrar com vários números positivos e imprimir a média dos números digitados.
+
     public static void atividade3()
     {
         int quant,i, num;

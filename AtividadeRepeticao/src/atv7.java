@@ -1,5 +1,7 @@
 public class atv7 extends Main
 {
+    //COMANDO: 7) Imprimir na tela todos os números de 1 a 100 e a soma deles.
+
     public static void atividade7()
     {
         int n =0;

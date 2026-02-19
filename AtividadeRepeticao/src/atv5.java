@@ -3,6 +3,10 @@ import java.util.List;
 
 public class atv5 extends Main
 {
+
+    // COMANDO: 5) Entrar com nomes enquanto forem diferentes de FIM e imprimir cada nome
+    //digitado.
+
     public static void atividade5()
     {
         List<String> nomes = new ArrayList<>();
