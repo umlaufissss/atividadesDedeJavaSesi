@@ -1,5 +1,9 @@
 public class atv2 extends Main
 {
+
+    // COMANDO: Implemente um programa que receba do usuário 5 números por meio do Scanner,
+    //armazene-os em um vetor e apresente a soma total dos valores digitados.
+
     public static void atividade2()
     {
         int[] numeros = new int[5];
