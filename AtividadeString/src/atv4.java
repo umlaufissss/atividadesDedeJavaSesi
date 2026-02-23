@@ -1,10 +1,15 @@
 public class atv4 extends Main
 {
+
+    //COMANDO: Solicite ao usuário que digite uma palavra, exiba a primeira e a última letra
+    //usando charAt(), conte a quantidade de vogais percorrendo a String com for, e
+    //mostre a palavra invertida ao final.
+
     public static void atividade4()
     {
         int vogal = 0;
 
-        System.out.println("Digite uma palavra legal");
+        System.out.println("Digite uma palavra legal: ");
         String palavraLegal = SC.nextLine().trim();
         int tamanho = palavraLegal.length() -1;
 

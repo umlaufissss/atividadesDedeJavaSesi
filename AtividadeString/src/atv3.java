@@ -1,11 +1,16 @@
 public class atv3 extends Main
 {
+
+    //COMANDO : Peça ao usuário que digite um email, verifique se contém “@” e “.”, confirme que
+    //o “@” não está na primeira posição, e utilize substring() para exibir separadamente o
+    //nome de usuário e o domínio ou uma mensagem indicando email inválido.
+
     public static void atividade3()
     {
         boolean ehValido = false;
         int arroba = 0;
 
-        System.out.println("Digite o seu e-mail");
+        System.out.println("Digite o seu e-mail: ");
         String emailValido = SC.nextLine();
 
         if(emailValido.contains("@") && emailValido.contains("."))
@@ -19,7 +24,7 @@ public class atv3 extends Main
 
         if(ehValido)
         {
-            System.out.println(emailValido.substring(0, arroba - 1));
+            System.out.println(emailValido.substring(0, arroba));
             System.out.println(emailValido.substring(arroba));
         }
         else

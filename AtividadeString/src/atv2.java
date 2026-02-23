@@ -1,5 +1,11 @@
 public class atv2 extends Main
 {
+
+    //COMANDO : Desenvolva um sistema de login que solicite usuário e senha, valide o usuário
+    //ignorando maiúsculas e minúsculas com equalsIgnoreCase(), valide a senha com
+    //equals() exigindo no mínimo 6 caracteres, e exiba “Acesso liberado” ou “Acesso
+    //negado”.
+
     public static void atividade2()
     {
         String usuarioAdmin = "DedeEDemais", usuarioUsuario;

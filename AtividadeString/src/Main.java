@@ -12,7 +12,7 @@ public class Main
 
     public static void inicio()
     {
-        System.out.println("Atividades do professor Dedé: \nAula - Vetores");
+        System.out.println("Atividades do professor Dedé: \nAula - String");
 
         System.out.println("▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀");
         System.out.println("┌────────────────────────────────────────────┐");

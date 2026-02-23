@@ -1,5 +1,11 @@
 public class atv1 extends Main
 {
+
+    //COMANDO: Solicite ao usuário que digite seu nome completo, remova espaços extras com
+    //trim(), verifique se possui pelo menos 5 caracteres e contém espaço entre nome e
+    //sobrenome, e ao final exiba o nome em letras maiúsculas ou uma mensagem de
+    //erro caso seja inválido.
+
     public static void atividade1()
     {
         System.out.println("Digite seu nome completo: ");
