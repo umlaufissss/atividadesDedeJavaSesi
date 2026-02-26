@@ -9,7 +9,7 @@ public class atv1 extends Main
 
         for(int i =0; i<5;i++)
         {
-            System.out.println("Digite o nome " +i+1);
+            System.out.println("Digite o nome " + (i+1) + ": ");
             String nome = SC.nextLine();
             listaNome.add(nome);
         }

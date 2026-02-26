@@ -9,6 +9,7 @@ public class atv2 extends Main
 
         for(int i = 0; i<=10; i++)
         {
+            System.out.println(i);
             listaNumero.add(i);
         }
 

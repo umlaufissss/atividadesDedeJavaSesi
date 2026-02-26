@@ -10,7 +10,7 @@ public class atv4 extends Main
 
         for(int i = 0;i<5;i++)
         {
-            System.out.println("Digite número " + i+1);
+            System.out.println("Digite número " + (i+1) + ": ");
             int num = SC.nextInt();
             SC.nextLine();
 

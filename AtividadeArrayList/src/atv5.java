@@ -9,13 +9,13 @@ public class atv5 extends Main
 
         for(int i = 0; i<5;i++)
         {
-            System.out.println("Digite palavra " + i+1+ ": ");
+            System.out.println("Digite palavra " + (i+1) + ": ");
             String palavra = SC.nextLine();
             listPalavra.add(palavra);
         }
 
         System.out.println("Suas inserções na ordem inversa: ");
-        for(int i = 5; i > 0; i--)
+        for(int i = 4; i >= 0; i--)
         {
             System.out.println(listPalavra.get(i));
         }
