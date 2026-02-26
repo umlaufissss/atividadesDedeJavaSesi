@@ -3,6 +3,11 @@ import java.util.List;
 
 public class atv1 extends Main
 {
+
+    // COMANDO: Crie um ArrayList<String>, peça ao usuário para digitar 5 nomes utilizando
+    //Scanner e exiba todos os nomes cadastrados utilizando um laço de
+    //repetição.
+
     public static void atividade1()
     {
         List<String> listaNome = new ArrayList<>();

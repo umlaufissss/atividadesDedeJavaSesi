@@ -11,7 +11,7 @@ public class Main
 
     public static void inicio()
     {
-        System.out.println("Atividades do professor Dedé: \nAula - Entrada de Dados (Scanner)");
+        System.out.println("Atividades do professor Dedé: \nAula - ArrayList");
 
         System.out.println("▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀");
         System.out.println("┌────────────────────────────────────────────┐");

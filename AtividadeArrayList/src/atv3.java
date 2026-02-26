@@ -3,6 +3,10 @@ import java.util.List;
 
 public class atv3 extends Main
 {
+
+    // COMANDO: Crie um ArrayList<String> com 5 cores pré-definidas, peça ao usuário que
+    //digite uma cor e informe se ela está presente na lista.
+
     public static void atividade3()
     {
         List<String> listaCor = new ArrayList<>();

@@ -3,6 +3,10 @@ import java.util.List;
 
 public class atv4 extends Main
 {
+
+    // COMANDO: Implemente um ArrayList<Integer>, solicite ao usuário que digite 5 números,
+    //calcule a soma e a média dos valores armazenados e exiba os resultados.
+
     public static void atividade4()
     {
         List<Integer>listNum = new ArrayList<>();

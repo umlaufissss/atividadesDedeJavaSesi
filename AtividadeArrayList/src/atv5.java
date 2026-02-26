@@ -3,6 +3,10 @@ import java.util.List;
 
 public class atv5 extends Main
 {
+
+    // COMANDO: Crie um ArrayList<String>, peça ao usuário para digitar 5 palavras e exiba os
+    //elementos na ordem inversa da inserção
+
     public static void atividade5()
     {
         List<String> listPalavra = new ArrayList<>();
