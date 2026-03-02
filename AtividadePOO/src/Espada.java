@@ -12,5 +12,6 @@ public class Espada
     public void afiar()
     {
         System.out.println("A " + nome + " está sendo afiada...");
+        dano +=1;
     }
 }

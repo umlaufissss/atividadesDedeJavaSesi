@@ -23,7 +23,6 @@ public class Main {
         System.out.println("│[2]                     [6]                 │");
         System.out.println("│[3]                     [7]                 │");
         System.out.println("│[4]                     [8]                 │");
-        System.out.println("│[9]                                         │");
         System.out.println("├────────────────────────────────────────────┤");
         System.out.println("│[10] - SAIR                                 │");
         System.out.println("└────────────────────────────────────────────┘");
@@ -40,7 +39,6 @@ public class Main {
             case 6 -> atv6.atividade6();
             case 7 -> atv7.atividade7();
             case 8 -> atv8.atividade8();
-            case 9 -> atv9.atividade9();
             case 10 -> System.exit(0);
             default -> {
                 System.out.println("Opção inválida!");
