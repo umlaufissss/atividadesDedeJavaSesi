@@ -1,4 +1,4 @@
-public class atv2Personagem
+public class Personagem
 {
     public String nome;
     public int nivel;

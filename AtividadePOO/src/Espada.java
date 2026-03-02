@@ -1,4 +1,4 @@
-public class atv1Espada
+public class Espada
 {
     public String nome;
     public int dano;
