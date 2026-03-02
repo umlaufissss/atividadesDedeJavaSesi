@@ -31,7 +31,7 @@ public class atv1 extends Main
         {
             Thread.sleep(3000);
         }
-        catch (InputMismatchException e)
+        catch (InterruptedException e)
         {
             Thread.currentThread().interrupt();
         }
