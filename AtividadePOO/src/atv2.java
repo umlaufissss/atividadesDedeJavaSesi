@@ -2,28 +2,24 @@ public class atv2 extends Main
 {
     public static void atividade2()
     {
-        FoneDeOuvido foneDeOuvido = new FoneDeOuvido();
-
-        foneDeOuvido.marca = "JotaBêEle";
-        foneDeOuvido.conectado = true;
-        foneDeOuvido.volume = 98;
+        Personagem personagem = new Personagem();
+        personagem.nome = "Daniel Erthal Dapper";
+        personagem.nivel = 0;
+        personagem.classe = "Animal Programador de Front-End";
 
         System.out.println("Digite o que você quer fazer: ");
-        System.out.println("[1] - Aumentar Volume || [2] - Conectar || [3] - Desconectar");
+        System.out.println("[1] - Mostrar Status || [2] - Subir de nível ");
         int escolha = SC.nextInt();
 
         if(escolha == 1)
         {
-            foneDeOuvido.aumentarVolume();
+            personagem.mostrarStatus();
         }
         else if(escolha == 2)
         {
-            foneDeOuvido.conectar();
+            personagem.subirNivel();
         }
-        else if(escolha == 3)
-        {
-            foneDeOuvido.desconectar();
-        }
+
         else
         {
             System.out.println("OPÇÃO INVÁLIDA");
