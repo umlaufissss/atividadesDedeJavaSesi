@@ -9,5 +9,8 @@
         <module name="AtividadePOOEncapsulamento" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="POONormal" target="22" />
+    </bytecodeTargetLevel>
   </component>
 </project>
