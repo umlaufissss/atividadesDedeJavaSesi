@@ -32,16 +32,18 @@ public class ContaBancaria
         setSaldo(getSaldo()+valor);
     }
 
-    public void sacar (double valor)
+    public boolean sacar (double valor)
     {
         if(getSaldo() - valor <0)
         {
             System.out.println("ERRO! O SALDO NÃO PODE ESTAR NEGATIVO");
+            return false;
         }
         else
         {
             System.out.println("Sacando da conta...");
             setSaldo(getSaldo()-valor);
+            return true;
         }
     }
 
