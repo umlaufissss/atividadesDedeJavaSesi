@@ -42,17 +42,19 @@ public class Carro
         setVelocidade(getVelocidade()+valor);
     }
 
-    public void freiar(double valor)
+    public boolean freiar(double valor)
     {
         if(getVelocidade() - valor <0)
         {
             System.out.println("ERRO! O Carro já está parado a esse ponto");
             setVelocidade(0);
+            return false;
         }
         else
         {
             System.out.println("Freiando...");
             setVelocidade(getVelocidade() - valor);
+            return true;
         }
     }
 
