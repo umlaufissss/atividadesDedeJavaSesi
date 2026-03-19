@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/AtividadeScanner/AtividadeScanner.iml" filepath="$PROJECT_DIR$/AtividadeScanner/AtividadeScanner.iml" />
       <module fileurl="file://$PROJECT_DIR$/AtividadeString/AtividadeString.iml" filepath="$PROJECT_DIR$/AtividadeString/AtividadeString.iml" />
       <module fileurl="file://$PROJECT_DIR$/AtividadeVetor/AtividadeVetor.iml" filepath="$PROJECT_DIR$/AtividadeVetor/AtividadeVetor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AtividadePOO/POOHeranca/POOHeranca.iml" filepath="$PROJECT_DIR$/AtividadePOO/POOHeranca/POOHeranca.iml" />
       <module fileurl="file://$PROJECT_DIR$/POONormal.iml" filepath="$PROJECT_DIR$/POONormal.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/atividadesDedeJavaSesi.iml" filepath="$PROJECT_DIR$/.idea/atividadesDedeJavaSesi.iml" />
     </modules>
