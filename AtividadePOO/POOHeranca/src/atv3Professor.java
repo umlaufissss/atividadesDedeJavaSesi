@@ -36,8 +36,8 @@ public class atv3Professor extends atv3Pessoa
         System.out.println("=== DADOS DO PROFESSOR ===\n" +
                 "Nome: " + getNome() + "\n" +
                 "CPF: " + getCpf() + "\n" +
-                "Idade: " + getIdade() +
-                "Disciplina: " + getDisciplina() +
+                "Idade: " + getIdade() + "\n" +
+                "Disciplina: " + getDisciplina() + "\n" +
                 "Salário: " + getSalario());
     }
 }

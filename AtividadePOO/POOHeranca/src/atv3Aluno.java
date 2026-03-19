@@ -36,8 +36,8 @@ public class atv3Aluno extends atv3Pessoa
         System.out.println("=== DADOS DO ALUNO ===\n" +
                 "Nome: " + getNome() + "\n" +
                 "CPF: " + getCpf() + "\n" +
-                "Idade: " + getIdade() +
-                "Matricula: " + getMatricula() +
+                "Idade: " + getIdade() + "\n" +
+                "Matricula: " + getMatricula() + "\n" +
                 "Curso: " + getCurso());
     }
 }
