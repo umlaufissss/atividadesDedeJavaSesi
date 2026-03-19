@@ -3,10 +3,10 @@ import java.util.List;
 
 public class atv3 extends Main
 {
+    //SISTEMA ESCOLA
     public static void atividade3()
     {
         List<atv3Pessoa> pessoas = new ArrayList<>();
-
 
         String nome, cpf, disciplina, curso;
         long matricula;
