@@ -31,5 +31,7 @@ public class atv1 extends Main
         {
             Thread.currentThread().interrupt();
         }
+
+        inicio();
     }
 }
